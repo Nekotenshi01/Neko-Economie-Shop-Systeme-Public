@@ -15,7 +15,8 @@ body:
 - id: major2
   type: checkboxes
   attributes:
-    description: If the player crashe 
+    label: Crash or Major-Bug
+    description: If the player crashes after the bug
     options:
       - label: Yes the player crash
   validations:
