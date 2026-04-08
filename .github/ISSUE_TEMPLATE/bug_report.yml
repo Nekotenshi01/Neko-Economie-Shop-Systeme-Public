@@ -9,7 +9,7 @@ body:
     description: If the server crashes after the bug
     options:
       - label: Yes the server crash
-      - label: No the server does not crash
+      - label: Yes the player crash
   validations:
     required: true
 
