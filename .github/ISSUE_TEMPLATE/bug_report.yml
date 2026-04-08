@@ -40,7 +40,7 @@ body:
   validations:
     required: true
 
-- id: Other Mods
+- id: Other-Mods
   type: textarea
   attributes:
     label: Other Mods
