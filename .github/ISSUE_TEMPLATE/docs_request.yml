@@ -9,3 +9,7 @@ body:
     placeholder: "Explain the documentation you want to request"
   validations:
     required: true
+
+- type: markdown
+  attributes:
+    value: One idea per issue
