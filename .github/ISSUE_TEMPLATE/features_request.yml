@@ -1,0 +1,21 @@
+name: "Suggest a new feature or improvement"
+description: Sugegest a new feature or improvement
+labels: [feature or improvement]
+body:
+- id: Feature
+  type: textarea
+  attributes:
+    label: The sugested feature or improvement::
+  validations:
+    required: true
+
+- id: Improvement
+  type: textarea
+  attributes:
+    label: The reason why this improvement is needed::
+  validations:
+    required: true
+
+- type: markdown
+  attributes:
+    value: One idea per issue
