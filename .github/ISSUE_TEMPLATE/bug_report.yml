@@ -6,9 +6,18 @@ body:
   type: checkboxes
   attributes:
     label: Crash or Major-Bug
-    description: If the server crashes after the bug or if the player crashe 
+    description: If the server crashes after the bug
     options:
-      - label: Yes the server crash or player crash
+      - label: Yes the server crash
+  validations:
+    required: true
+
+- id: major2
+  type: checkboxes
+  attributes:
+    description: If the player crashe 
+    options:
+      - label: Yes the player crash
   validations:
     required: true
 
