@@ -1,0 +1,58 @@
+name: "Report a Bug"
+description: Report errors or unexpected behavior
+labels: [bug]
+body:
+- id: major
+  type: checkboxes
+  attributes:
+    label: Crash or Major-Bug
+    description: If the server crashes after the bug or if the player crashe 
+    options:
+      - label: Yes the server crash or player crash
+  validations:
+    required: true
+
+- id: version
+  type: input
+  attributes:
+    label: Version
+    placeholder: "1.0.0"
+  validations:
+    required: true
+
+- id: description
+  type: textarea
+  attributes:
+    label: Description
+    description: A clear description of the bug.
+  validations:
+    required: true
+
+- id: steps
+  type: textarea
+  attributes:
+    label: Steps To Reproduce the bug
+    description: Steps to reproduce the behavior.
+    placeholder: |
+      1.
+      2.
+      3.
+  validations:
+    required: true
+
+- id: Other Mods
+  type: textarea
+  attributes:
+    label: Other Mods
+    description: The list of other mods installed on the server
+  validations:
+    required: false
+
+- id: log
+  type: textarea
+  attributes:
+    label: Log
+    description: Output log when the bug occur.
+  validations:
+    required: false
+ 
