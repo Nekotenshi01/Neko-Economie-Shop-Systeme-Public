@@ -5,14 +5,14 @@ body:
 - id: Feature
   type: textarea
   attributes:
-    label: The sugested feature or improvement::
+    label: The sugested feature or improvement
   validations:
     required: true
 
 - id: Improvement
   type: textarea
   attributes:
-    label: The reason why this improvement is needed::
+    label: The reason why this improvement is needed
   validations:
     required: true
 
