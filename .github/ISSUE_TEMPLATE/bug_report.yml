@@ -56,4 +56,8 @@ body:
     description: Output log when the bug occur.
   validations:
     required: false
+
+- type: markdown
+  attributes:
+    value: One idea per issue
  
