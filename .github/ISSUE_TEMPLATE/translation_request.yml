@@ -9,3 +9,7 @@ body:
     placeholder: "French, Spanish, etc..."
   validations:
     required: true
+
+- type: markdown
+  attributes:
+    value: One idea per issue
