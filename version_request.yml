@@ -1,0 +1,21 @@
+name: "Version request"
+description: Request a new version
+labels: [version]
+body:
+- id: Version
+  type: textarea
+  attributes:
+    label: The version you want to request
+  validations:
+    required: true
+
+- id: Loader
+  type: textarea
+  attributes:
+    label: The loader you want to request the version for
+  validations:
+    required: true
+
+- type: markdown
+  attributes:
+    value: One idea per issue
