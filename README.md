@@ -105,7 +105,7 @@ A config file is generated at first launch:
 If you encounter bugs or have suggestions:
 
 -  Discord: https://discord.gg/kwCfHSM9vc  
--  GitHub: https://github.com/Nekotenshi01/Neko-Economie-Shop-Systeme-Public
+-  GitHub: https://github.com/Nekotenshi01/NekoEconomie-Depot-Public
 -  CurseForge : https://www.curseforge.com/members/nekotenshi/projects
 
 ---
